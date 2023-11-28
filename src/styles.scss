@@ -10,11 +10,16 @@
         width: 80vw; 
         height: 100vh;
     }
+    
 }
 
 @media (max-width: 767px) {
     .my-container {
         width: 100vw; 
-        height: 100vh;
+        height: 92vh;
+    }
+    .header-min {
+        align-items: center;
+        height: 8vh;
     }
 }
