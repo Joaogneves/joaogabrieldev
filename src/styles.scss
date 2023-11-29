@@ -16,9 +16,11 @@
 @media (max-width: 767px) {
     .my-container {
         width: 100vw; 
-        height: 92vh;
+        min-height: 100vh;
+        overflow-y: scroll;
     }
     .header-min {
+        position: fixed;
         align-items: center;
         height: 8vh;
     }
